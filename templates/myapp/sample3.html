@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample3</title>
+</head>
+<body>
+    <h1>Welcome to sample3</h1>
+    <h2>Data Carried from Backend {{name}}</h2>
+    <a href="{% url 'sample1' %}">Sample1</a>
+    <br><a href="{% url 'myapp:sample2' data=name %}">Sample2</a>
+</body>
+</html>
